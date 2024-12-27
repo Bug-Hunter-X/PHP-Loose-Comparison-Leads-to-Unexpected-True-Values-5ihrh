@@ -1,0 +1,3 @@
+# PHP Loose Comparison Bug
+
+This repository demonstrates a common but subtle bug in PHP related to loose comparison (`==`) which can lead to unexpected results in conditional statements.  The `bug.php` file contains the erroneous code, while `bugSolution.php` provides a corrected version using strict comparison (`===`).  Loose comparison can lead to unexpected behavior and security vulnerabilities if not handled carefully. Always prefer strict comparison for reliable and secure code.
